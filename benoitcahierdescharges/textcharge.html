@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <title>WAtah</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+  //<!--
+  function change_onglet(name)
+  {
+    document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
+    document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
+    document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
+    document.getElementById('contenu_onglet_'+name).style.display = 'block';
+    anc_onglet = name;
+  }
+  //-->
+  </script>
+</head>
+<body>
+  <div class="systeme_onglets">
+    <div class="onglets">
+      <span class="onglet_0 onglet" id="onglet_accueil" onclick="javascript:change_onglet('accueil');">Accueil</span>
+      <span class="onglet_0 onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">Présentation</span>
+      <span class="onglet_0 onglet" id="onglet_demonstration" onclick="javascript:change_onglet('demonstration');">Démonstration</span>
+      <span class="onglet_0 onglet" id="onglet_communaute" onclick="javascript:change_onglet('communaute');">Communauté</span>
+      <span class="onglet_0 onglet" id="onglet_contact" onclick="javascript:change_onglet('contact');">Contact</span>
+    </div>
+    <div class="contenu_onglets">
+      <div class="contenu_onglet" id="contenu_onglet_accueil">
+        <h1>Accueil</h1>
+        <ul>
+          <li>lorem ispsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+        </ul>
+      </div>
+      <div class="contenu_onglet" id="contenu_onglet_presentation">
+        <h1>Présentation</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore < br>
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip < br>
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat < br>
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="contenu_onglet" id="contenu_onglet_demonstration">
+          <h1>Démonstration</h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dlll88egFME" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="contenu_onglet" id="contenu_onglet_communaute">
+          <h1>Communauté</h1>
+          Pour simplifier la navigation et la diviser en parties
+        </div>
+        <div class="contenu_onglet" id="contenu_onglet_contact">
+          <h1>Contact</h1>
+          Pour simplifier la navigation et la diviser en parties
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    //<!--
+    var anc_onglet = 'accueil';
+    change_onglet(anc_onglet);
+    //-->
+    </script>
+  </body>
+  </html>
