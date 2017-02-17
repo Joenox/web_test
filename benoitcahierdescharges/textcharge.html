@@ -1,8 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>WAtah</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>cours public polytech-lille</title>
+  <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript">
   //<!--
@@ -18,49 +20,79 @@
   </script>
 </head>
 <body>
+  <h1> Les micro-ondes et Les circuits intégrés monolithiques hyperfréquences</h1>
   <div class="systeme_onglets">
     <div class="onglets">
       <span class="onglet_0 onglet" id="onglet_accueil" onclick="javascript:change_onglet('accueil');">Accueil</span>
-      <span class="onglet_0 onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">Présentation</span>
+      <span class="onglet_0 onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">Récapitulatif</span>
       <span class="onglet_0 onglet" id="onglet_demonstration" onclick="javascript:change_onglet('demonstration');">Démonstration</span>
       <span class="onglet_0 onglet" id="onglet_communaute" onclick="javascript:change_onglet('communaute');">Communauté</span>
       <span class="onglet_0 onglet" id="onglet_contact" onclick="javascript:change_onglet('contact');">Contact</span>
     </div>
     <div class="contenu_onglets">
       <div class="contenu_onglet" id="contenu_onglet_accueil">
-        <h1>Accueil</h1>
-        <ul>
-          <li>lorem ispsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
+        <h1>  Les circuits intégrés monolithiques hyperfréquences ou MMIC</h1>
+        <h2> les applications</h2>
+      <ul>
+        <!-- je voulais faire une ancre qui ramène sur les endroits spécifique au site mais n'y est pas arrivé !-->
+          <li>militaire : détection, guidage, communication<a href="http://www.polytech-lille.fr/cours-transistor-effet-champ/hyper/hyperc3.htm#A"> cf</a></li>
+          <li>télécommunications : satellite, téléphonie, optique<a href="http://www.polytech-lille.fr/cours-transistor-effet-champ/hyper/hyperc3.htm#A"> cf</a></li>
+          <li>transport : communication , controle GPS <a href="http://www.polytech-lille.fr/cours-transistor-effet-champ/hyper/hyperc3.htm#A"> cf</a></li>
+          <li> automobile <a href="http://www.polytech-lille.fr/cours-transistor-effet-champ/hyper/hyperc3.htm#A"> cf</a></li>
         </ul>
       </div>
       <div class="contenu_onglet" id="contenu_onglet_presentation">
-        <h1>Présentation</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore < br>
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip < br>
-          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat < br>
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h1>Le domaine de l'hyperfréquence</h1>
+        <a href="/home/userpop/Images/spectreem.gif" target="_blank"><img class="img" src="/home/userpop/Images/spectreem.gif" alt="micro-onde" title="click to see"/></a>
+        <p>les différentes radiations du spectre électromagnétique. Leur dénomination tient à des raisons <br>
+          historiques mais également à la façon dont elles ont été générées. Les frontières entre les différentes radiations <br>
+          sont toutes artificielles. En allant des ondes radio vers les rayons gamma, la longueur d'onde devient plus courte <br>
+          (les ondes deviennent plus pénétrantes), la fréquence augmente (les oscillations nécessaires pour les produire deviennent plus rapides), <br>
+          et l'énergie devient plus élevée (cela demande plus d'énergie pour produire des rayons gamma que cela n'en demande pour les ondes radio).<br>
+          Noter qu'au-delà des rayons gamma se trouvent les rayons cosmiques dont la longueur d'onde est de l'ordre de 1030 Hertz.</p>
         </div>
         <div class="contenu_onglet" id="contenu_onglet_demonstration">
-          <h1>Démonstration</h1>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dlll88egFME" frameborder="0" allowfullscreen></iframe>
+          <h1>Créer son amplificatuer de puissance personnel</h1>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rxw6ronYmS8?list=PLAF9AD02AC34BC7A9" frameborder="0" allowfullscreen></iframe>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br>
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <br>
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="contenu_onglet" id="contenu_onglet_communaute">
+          <a href="http://www.polytech-lille.fr/cours-transistor-effet-champ/perso/pascal/pascal.html" target="_blank"> pour plus d'info sur l'auteur</a>
+          </div>
+          <div class="contenu_onglet" id="contenu_onglet_contact">
+            <h1>Nous contacter</h1>
+            <div id="conteneur">
+              <form action="trolling.html" method="post">
+                <p>
+                  <label="nom">Nom :</label>
+                  <input type="text" id="nom" />
+                </p>
+                <p>
+                  <label="courriel">Courriel :</label>
+                  <input type="email" id="courriel" />
+                </p>
+                <p>
+                  <label="message">Message :</label>
+                  <textarea id="message"></textarea>
+                </p>
+                <input type="submit" value="Envoyer" name="Envoyer"/>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="contenu_onglet" id="contenu_onglet_communaute">
-          <h1>Communauté</h1>
-          Pour simplifier la navigation et la diviser en parties
-        </div>
-        <div class="contenu_onglet" id="contenu_onglet_contact">
-          <h1>Contact</h1>
-          Pour simplifier la navigation et la diviser en parties
-        </div>
+        <script type="text/javascript">
+        //<!--
+        var anc_onglet = 'accueil';
+        change_onglet(anc_onglet);
+        //-->
+        </script>
+        <footer>
+          <a href="https://twitter.com/login" target="_blank"><img class="footer1" src="images/twitter2-dreamstale72.png" alt="twitter"/></a>
+          <a href="https://fr-fr.facebook.com/" target="_blank"><img class="footer1" src="images/facebook.png" alt="facebook"/></a>
+        </footer>
       </div>
-    </div>
-    <script type="text/javascript">
-    //<!--
-    var anc_onglet = 'accueil';
-    change_onglet(anc_onglet);
-    //-->
-    </script>
-  </body>
-  </html>
+    </body>
+    </html>
