@@ -8,61 +8,61 @@
   padding: 1vh 2vw
 }
 .footer1{
-    position: relative;
-    float: left;
-    opacity: 0.8;
-    margin: 0.5vw;
+  position: relative;
+  float: left;
+  opacity: 0.8;
+  margin: 0.5vw;
 }
 
 .onglet
-	{
-    align-self:center;
-		display:flex;
-		margin-left:-3px;
-		margin-right:-3px;
-    position: inline-block;
-    /*float: left;*/
-		padding:3px;
-		border:1px solid black;
-    border-radius: 15%;
-		cursor:pointer;
-	}
-	.onglet_0
-	{
-		background:#bbbbbb;
-		border-bottom:1vw solid black;
-	}
-	.onglet_1
-	{
-		background:#dddddd;
-		border-bottom:0vw solid black;
-		padding-bottom:4vh;
-	}
-	.contenu_onglet
-	{
-		background-color:#5DBCD2 ;
-		border:1px solid black;
-		margin-top:-1px;
-		padding:5px;
-		display:none;
+{
+  align-self:center;
+  display:flex;
+  margin-left:-3px;
+  margin-right:-3px;
+  position: inline-block;
+  /*float: left;*/
+  padding:3px;
+  border:1px solid black;
+  border-radius: 15%;
+  cursor:pointer;
 }
-  .img{
-    margin:auto;
-    display: block;
-    width:80vw;
-    position: relative;
-  }
-	ul
-	{
-		margin-top:0px;
-		margin-bottom:0px;
-		margin-left:-10px
-	}
-	h1
-	{
-		margin:0px;
-		padding:0px;
-	}
+.onglet_0
+{
+  background:#bbbbbb;
+  border-bottom:1vw solid black;
+}
+.onglet_1
+{
+  background:#dddddd;
+  border-bottom:0vw solid black;
+  padding-bottom:4vh;
+}
+.contenu_onglet
+{
+  background-color:#5DBCD2 ;
+  border:1px solid black;
+  margin-top:-1px;
+  padding:5px;
+  display:none;
+}
+.img{
+  margin:auto;
+  display: block;
+  width:80vw;
+  position: relative;
+}
+ul
+{
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:-10px
+}
+h1
+{
+  margin:0px;
+  padding:0px;
+}
 body{
   font-family: 'Damion';font-size: 4vh;
   background-color: #10ff90;
