@@ -16,7 +16,8 @@
 
 .onglet
 	{
-		display:inline-block;
+    align-self:center;
+		display:flex;
 		margin-left:-3px;
 		margin-right:-3px;
     position: inline-block;
@@ -29,17 +30,13 @@
 	.onglet_0
 	{
 		background:#bbbbbb;
-		border-bottom:1px solid black;
-    width:15vw;
-    overflow: hidden
+		border-bottom:1vw solid black;
 	}
 	.onglet_1
 	{
 		background:#dddddd;
-		border-bottom:0px solid black;
-		padding-bottom:4px;
-    width: 15vw;
-    overflow: hidden;
+		border-bottom:0vw solid black;
+		padding-bottom:4vh;
 	}
 	.contenu_onglet
 	{
@@ -67,7 +64,7 @@
 		padding:0px;
 	}
 body{
-  font-family: 'Damion';font-size: 22px;
+  font-family: 'Damion';font-size: 4vh;
   background-color: #10ff90;
   height: 400px
 }
@@ -80,6 +77,12 @@ form p{
 }
 label{
   display: inline-block;
-  width: 90px;
+  width: 90vw;
   text-align: right;
+}
+iframe{
+  display:flex;
+  margin: auto;
+  min-width: 20%;
+  max-height:80%
 }
