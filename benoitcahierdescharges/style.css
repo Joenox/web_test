@@ -38,7 +38,7 @@
   border-bottom:0vw solid black;
   padding-bottom:4vh;
 }
-@media screen and (min-width: 200px) and (max-width: 1200px){
+@media screen and (min-width: 400px) and (max-width: 1200px){
 .contenu_onglet{
   background-color:#5DBCD2 ;
   border:1px solid black;
