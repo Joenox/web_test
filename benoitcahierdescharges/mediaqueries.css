@@ -1,0 +1,24 @@
+  .div-767{
+    height: 50px
+}
+@media screen and (max-width: 767px){
+  .div-767{
+    background: blue;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .div-767{
+    background: green;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .div-767{
+    background: yellow;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .div-767{
+    background: red;
+  }
+}
