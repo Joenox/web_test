@@ -15,6 +15,14 @@ footer {
   color: white;
   padding: 15px;
 }
+table
+{
+    border-collapse: collapse;
+}
+td
+{
+    border: 1px solid black;
+}
 @media screen and (max-width: 768px) {
   .sidenav {
     height: auto;
@@ -24,5 +32,4 @@ footer {
 }
 .navbar-inverse{
   background-image: url(images/graas2.png);
-
 }
