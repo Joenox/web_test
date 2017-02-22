@@ -1,27 +1,37 @@
-
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
 }
-.row.content {height: 450px}
-
+.row.content {
+  height: 450px
+}
 .sidenav {
   padding-top: 20px;
   background-color: #f1f1f1;
   height: 100%;
 }
+.navbar-inverse{
+  background-image: url(images/graas2.png);
+}
+.navbar-brand{
+  background-image: url(images/logorecy.jpeg);
+  padding-right: 100vw;
+  height: 20vh;
+  width: auto
+}
+body{
+  background-image: url(images/imgrecy3.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  display: flex;
+}
+a:active{
+  color: red
+}
 footer {
   background-image: url(images/graas2.png);
   color: white;
   padding: 15px;
-}
-table
-{
-    border-collapse: collapse;
-}
-td
-{
-    border: 1px solid black;
 }
 @media screen and (max-width: 768px) {
   .sidenav {
@@ -29,7 +39,4 @@ td
     padding: 15px;
   }
   .row.content {height:auto;}
-}
-.navbar-inverse{
-  background-image: url(images/graas2.png);
 }
