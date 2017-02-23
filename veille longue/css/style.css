@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'American_Grunge';
+  src: url('../font/American_Grunge.ttf');
+}
+
+@font-face {
+  font-family: 'Sister_Spray';
+  src: url('../font/Sister_Spray.ttf');
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.row.content {
+  height: 450px
+}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.navbar-inverse{
+  background-image: url(../images/graas2.png);
+}
+
+.logo {
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px
+}
+
+body{
+  font-family: 'American_Grunge';
+  background-image: url(../images/imgrecy3.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-color: #E0CBAC;
+}
+
+a:active{
+  color: red
+}
+
+h2{
+  font-family: 'Sister_Spray.ttf'
+}
+
+footer {
+  background-image: url(../images/graas2.png);
+  color: white;
+  padding: 15px;
+}
+
+.grass {
+  list-style-type: none
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {height:auto;}
+}
